@@ -11,7 +11,7 @@ function App() {
 
       <section>
     
-        <h1>la mia pagina</h1>
+        
       </section>
     
     </>
