@@ -1,5 +1,5 @@
 import MainHeader from "./components/MainHeader";
-
+import BlackSection from "./components/BlackSection"
 
 function App() {
   
@@ -8,11 +8,10 @@ function App() {
     <>
     <MainHeader />
 
+    <BlackSection />
 
-      <section>
-    
-        
-      </section>
+
+     
     
     </>
   )
