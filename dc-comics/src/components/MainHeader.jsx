@@ -1,4 +1,4 @@
-
+import Logo from "../img/dc-logo.png";
 
 export default function MainHeader() {
     return (
@@ -7,22 +7,22 @@ export default function MainHeader() {
             <header class="header">
 
                 <div>
-                    <img src="../img/dc-logo.png" alt="" class="header-logo"></img>
+                    <img src={Logo} alt="" class="header-logo" />
                 </div>
 
 
-                <div>
-                    <ul className="header-list">
-                        <li><a href=""></a>CHARACTERS</li>
-                        <li><a href=""></a>COMICS</li>
-                        <li><a href=""></a>MOVIES</li>
-                        <li><a href=""></a>TV</li>
-                        <li><a href=""></a>GAMES</li>
-                        <li><a href=""></a>COLLECTIBLES</li>
-                        <li><a href=""></a>VIDEOS</li>
-                        <li><a href=""></a>FANS</li>
-                        <li><a href=""></a>NEWS</li>
-                        <li><a href=""></a>SHOP</li>
+                <div class="h-list-container">
+                    <ul class="header-ul">
+                        <li class= "header-li"><a href=""></a>CHARACTERS</li>
+                        <li class= "header-li"><a href=""></a>COMICS</li>
+                        <li class= "header-li"><a href=""></a>MOVIES</li>
+                        <li class= "header-li"><a href=""></a>TV</li>
+                        <li class= "header-li"><a href=""></a>GAMES</li>
+                        <li class= "header-li"><a href=""></a>COLLECTIBLES</li>
+                        <li class= "header-li"><a href=""></a>VIDEOS</li>
+                        <li class= "header-li"><a href=""></a>FANS</li>
+                        <li class= "header-li"><a href=""></a>NEWS</li>
+                        <li class= "header-li"><a href=""></a>SHOP</li>
                     </ul>
                 </div>
 
