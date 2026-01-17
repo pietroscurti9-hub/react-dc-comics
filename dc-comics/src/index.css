@@ -3,11 +3,17 @@
     margin: 0%;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
+}
+
+
+.c-white {
+    color: white;
 }
 
 /* HEADER */
 .header {
-    display: flex;   
+    display: flex;
     justify-content: space-around;
     padding: 15px 0px;
 }
@@ -41,6 +47,40 @@
     align-items: center;
 }
 
-.b-s-h2 {
-    color: white;
+.black-s-container {
+    margin-left: 240px;
+}
+
+.figcaption-size {
+    font-size: 13px;
+}
+
+
+
+/* BLUE SECTION */
+
+.blue-section {
+    background-color: #0282f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+}
+
+.b-s-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.img-card {
+    width: 40px;
+    height: auto;
+    margin-right: 15px;
 }
