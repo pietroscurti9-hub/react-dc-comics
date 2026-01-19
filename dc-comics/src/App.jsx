@@ -1,6 +1,7 @@
 import MainHeader from "./components/MainHeader";
 import BlackSection from "./components/BlackSection";
 import BlueSection from "./components/BlueSection";
+import CardSection from "./components/CardSection";
 
 function App() {
   
@@ -10,6 +11,8 @@ function App() {
     <MainHeader />
 
     <BlackSection />
+
+    <CardSection />
 
     <BlueSection />
 

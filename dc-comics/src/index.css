@@ -41,15 +41,13 @@
 /* BLACK SECTION */
 
 .black-s-c {
-    background-color: #1c1c1c;
-    height: 110px;
+    background-image: url("./img/jumbotron.jpg");
+    width: 100%;
+    height: 400px;
     display: flex;
     align-items: center;
 }
 
-.black-s-container {
-    margin-left: 240px;
-}
 
 .figcaption-size {
     font-size: 13px;
@@ -73,7 +71,7 @@
     width: 70%;
 }
 
-.card-container {
+.figure-container {
     display: flex;
     align-items: center;
     margin-right: 15px;
@@ -83,4 +81,11 @@
     width: 40px;
     height: auto;
     margin-right: 15px;
+}
+
+/* CARD SECTION*/
+
+.card-section-img {
+    width: 200px;
+    height: auto;
 }

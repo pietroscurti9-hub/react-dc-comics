@@ -9,11 +9,11 @@ import DcVisa from "../img/buy-dc-power-visa.svg"
 export default function BlueSection () {
     return(
 
-        <section class="blue-section">
+        <section className="blue-section">
 
-            <div class="b-s-container">
+            <div className="b-s-container">
                 
-                    <figure className="card-container">
+                    <figure className="figure-container">
                         <img src={CDigital} alt="" className="img-card" />
                         <figcaption className="figcaption-size">
                             <a href="" className="c-white">DIGITAL COMICS</a>
@@ -22,7 +22,7 @@ export default function BlueSection () {
 
 
 
-                    <figure className="card-container">
+                    <figure className="figure-container">
                         <img src={CMerchandise} alt="" className="img-card" />
                         <figcaption className="figcaption-size">
                             <a href="" className="c-white">DC MERCHANDISE </a>
@@ -30,7 +30,7 @@ export default function BlueSection () {
                     </figure>
 
 
-                    <figure className="card-container">
+                    <figure className="figure-container">
                         <img src={CSubscription} alt="" className="img-card" />
                         <figcaption className="figcaption-size">
                             <a href="" className="c-white">SUBSCRIPTION</a>
@@ -38,7 +38,7 @@ export default function BlueSection () {
                     </figure>
 
 
-                    <figure className="card-container">
+                    <figure className="figure-container">
                         <img src={CShopLocator} alt="" className="img-card" />
                         <figcaption className="figcaption-size">
                             <a href="" className="c-white">COMIC SHOP LOCATOR</a>
@@ -46,7 +46,7 @@ export default function BlueSection () {
                     </figure>
 
                             
-                    <figure className="card-container">
+                    <figure className="figure-container">
                         <img src={DcVisa} alt="" className="img-card" />
                         <figcaption className="figcaption-size">
                             <a href="" className="c-white">DC POWER VISA</a>
