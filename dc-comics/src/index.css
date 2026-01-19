@@ -85,7 +85,21 @@
 
 /* CARD SECTION*/
 
+.card-section {
+    background-color: #1c1c1c;
+}
+
+.card-s-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+}
+
 .card-section-img {
-    width: 200px;
-    height: auto;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
 }
