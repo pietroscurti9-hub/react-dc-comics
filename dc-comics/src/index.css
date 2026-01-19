@@ -44,8 +44,8 @@
     background-image: url("./img/jumbotron.jpg");
     width: 100%;
     height: 400px;
-    display: flex;
-    align-items: center;
+    background-position: top;
+    background-size: cover
 }
 
 
@@ -100,6 +100,7 @@
 
 .card-section-img {
     width: 100%;
-    height: 320px;
+    height: 200px;
     object-fit: cover;
+    object-position: top;
 }
