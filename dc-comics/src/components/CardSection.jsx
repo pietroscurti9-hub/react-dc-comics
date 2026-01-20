@@ -1,12 +1,8 @@
 import comics from '../assets/comics.js'
-
+import Card from './Card.jsx'
 
 
 export default function CardSection() {
-
-    console.log(comics);
-
-
 
     return (
 
@@ -14,48 +10,15 @@ export default function CardSection() {
             <div className="card-s-container">
 
                 {comics.map((comic) => {
-
                     return (
-                        <figure>
-                            <img src={comic.thumb} alt="" className='card-section-img'/>
-                            <figcaption className= "c-white">
-                                {comic.title}
-                            </figcaption>
-                        </figure>
+                        <Card
+                            comic={comic}
+                        />
                     )
-                  }
-                 )
-                }
-
-
-                
+                  })}
 
             </div>
         </section>
-
-
-
-
-
-
-
-
-               
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     )
 }

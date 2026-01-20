@@ -5,7 +5,6 @@ import CSubscription from "../img/subscription.png"
 import DcVisa from "../img/buy-dc-power-visa.svg"
 
 
-
 export default function BlueSection () {
     return(
 
